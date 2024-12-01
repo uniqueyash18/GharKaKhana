@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421375668829",
+    "project_id": "gharkakhana-b9ff7",
+    "storage_bucket": "gharkakhana-b9ff7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421375668829:android:22f04507cc046f97bc13b4",
+        "android_client_info": {
+          "package_name": "com.gharkakhana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBViZ_n7VCbiIHkw5wuCk-cj1vBIR3sxf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
