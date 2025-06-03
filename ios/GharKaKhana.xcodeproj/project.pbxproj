@@ -16,6 +16,33 @@
 		7699B88040F8A987B510C191 /* libPods-GharKaKhana-GharKaKhanaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-GharKaKhana-GharKaKhanaTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		EDFE55232CFC50FA00E555AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDFE55222CFC50FA00E555AB /* GoogleService-Info.plist */; };
+		CBD4CD5718FF430F8F50AD45 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 867F6C1668EA46259C0500A2 /* CircularStd-Book.otf */; };
+		208886B7B90D4F2780735950 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 037F305C71E04225AA4255DB /* CircularStd-Medium.otf */; };
+		D1B8B89832F44586AD4AAF25 /* CircularStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37B1D5E46FB84347A0D0D542 /* CircularStd-Bold.ttf */; };
+		FAB2BB6F6A834FB4BFCDBD5C /* Eina03-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 615AAF4AA51E4C47AAF89745 /* Eina03-SemiBold.ttf */; };
+		501ADE94449C45BCAFCB79A4 /* Futura Hv BT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79087E1D647C4A5E8823372F /* Futura Hv BT.ttf */; };
+		1F79B0050683414CBBEE2DA7 /* Futura-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2475B51965844A29A576A2FC /* Futura-Book.ttf */; };
+		1AE62742BF5D4452AC0C4E43 /* Futura-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E0128A8F0A8473CA4A3329A /* Futura-Medium.ttf */; };
+		944F10228FC2484DA3C8E290 /* Futura-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5689B7A495584F7DAFEEE874 /* Futura-Normal.ttf */; };
+		367EB94C97CA4B728961B5ED /* FuturaBT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 950AAB46314745F79CFB5E29 /* FuturaBT-Heavy.ttf */; };
+		1CAECD21F8E7492FAC7053CB /* Hello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F1E203BAE214F20A5D5EA43 /* Hello.ttf */; };
+		5E94DA4AE79A4C54A3F0F091 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6118C336A00459EB56D1901 /* Poppins-Bold.ttf */; };
+		44B780BDBB2C4933982DCCD3 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C942B925D860418FB596566A /* Poppins-Medium.ttf */; };
+		CB1553AB5A33414AAE1747C4 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A97FD4342A9A4BA7B23F90D1 /* Poppins-Regular.ttf */; };
+		971698CA9E2D4DE587245099 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1AC54B934904A019108E51B /* Poppins-SemiBold.ttf */; };
+		83249B53723B42B391DFAB66 /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 173903D08EC941E38FB8BBDB /* ProximaNova-Bold.ttf */; };
+		96EE3E1157FE4C4FAFDE08BD /* ProximaNova-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C1AB4A25FF64FF9A3F81FF1 /* ProximaNova-Medium.ttf */; };
+		89B7E346A1AD46E386F1032D /* ProximaNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950F46889E44C5789875865 /* ProximaNova-Regular.ttf */; };
+		57A3A7E56CB1491E97B0A4A8 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3716A8D7CF7441B997746C3 /* SFProDisplay-Regular.ttf */; };
+		F3524C2A0D4B4D5586AFDC15 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA15B136A2A4FB787CB2B6F /* SFProText-Bold.ttf */; };
+		311125CC5A9E445CAE50785F /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D115D268EBFD47DE96FCF81C /* SFProText-Medium.ttf */; };
+		E668788F660A400A95FAD68B /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCB6B7291E1545AFB2E01DB7 /* SFProText-Regular.ttf */; };
+		E8F0B3A998334843A6E2F0C0 /* SFProText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0994FBA28D02403B9CD5D197 /* SFProText-SemiBold.ttf */; };
+		74318183C36F469DB6C7530C /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 065B0184CF02464688603963 /* Urbanist-Bold.ttf */; };
+		4F14185F38BA4B57AFB9D207 /* Urbanist-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 430901AEDD364920B4421D40 /* Urbanist-ExtraBold.ttf */; };
+		61F423A0891543B292DB11AA /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 987F6E94D4E24D5BB3BD695C /* Urbanist-Medium.ttf */; };
+		0DB3D858FDB54598B6EC21C6 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D944E25D3C4B4D59A2E9A528 /* Urbanist-Regular.ttf */; };
+		44900AF773EA45D78724F546 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 546B1463BBC04B228EB9ECFB /* Urbanist-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +75,33 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-GharKaKhana-GharKaKhanaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GharKaKhana-GharKaKhanaTests.release.xcconfig"; path = "Target Support Files/Pods-GharKaKhana-GharKaKhanaTests/Pods-GharKaKhana-GharKaKhanaTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EDFE55222CFC50FA00E555AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		867F6C1668EA46259C0500A2 /* CircularStd-Book.otf */ = {isa = PBXFileReference; name = "CircularStd-Book.otf"; path = "../src/assets/fonts/CircularStd-Book.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		037F305C71E04225AA4255DB /* CircularStd-Medium.otf */ = {isa = PBXFileReference; name = "CircularStd-Medium.otf"; path = "../src/assets/fonts/CircularStd-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		37B1D5E46FB84347A0D0D542 /* CircularStd-Bold.ttf */ = {isa = PBXFileReference; name = "CircularStd-Bold.ttf"; path = "../src/assets/fonts/CircularStd-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		615AAF4AA51E4C47AAF89745 /* Eina03-SemiBold.ttf */ = {isa = PBXFileReference; name = "Eina03-SemiBold.ttf"; path = "../src/assets/fonts/Eina03-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79087E1D647C4A5E8823372F /* Futura Hv BT.ttf */ = {isa = PBXFileReference; name = "Futura Hv BT.ttf"; path = "../src/assets/fonts/Futura Hv BT.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2475B51965844A29A576A2FC /* Futura-Book.ttf */ = {isa = PBXFileReference; name = "Futura-Book.ttf"; path = "../src/assets/fonts/Futura-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E0128A8F0A8473CA4A3329A /* Futura-Medium.ttf */ = {isa = PBXFileReference; name = "Futura-Medium.ttf"; path = "../src/assets/fonts/Futura-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5689B7A495584F7DAFEEE874 /* Futura-Normal.ttf */ = {isa = PBXFileReference; name = "Futura-Normal.ttf"; path = "../src/assets/fonts/Futura-Normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		950AAB46314745F79CFB5E29 /* FuturaBT-Heavy.ttf */ = {isa = PBXFileReference; name = "FuturaBT-Heavy.ttf"; path = "../src/assets/fonts/FuturaBT-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F1E203BAE214F20A5D5EA43 /* Hello.ttf */ = {isa = PBXFileReference; name = "Hello.ttf"; path = "../src/assets/fonts/Hello.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6118C336A00459EB56D1901 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C942B925D860418FB596566A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A97FD4342A9A4BA7B23F90D1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1AC54B934904A019108E51B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		173903D08EC941E38FB8BBDB /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Bold.ttf"; path = "../src/assets/fonts/ProximaNova-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C1AB4A25FF64FF9A3F81FF1 /* ProximaNova-Medium.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Medium.ttf"; path = "../src/assets/fonts/ProximaNova-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D950F46889E44C5789875865 /* ProximaNova-Regular.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Regular.ttf"; path = "../src/assets/fonts/ProximaNova-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3716A8D7CF7441B997746C3 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "SFProDisplay-Regular.ttf"; path = "../src/assets/fonts/SFProDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9FA15B136A2A4FB787CB2B6F /* SFProText-Bold.ttf */ = {isa = PBXFileReference; name = "SFProText-Bold.ttf"; path = "../src/assets/fonts/SFProText-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D115D268EBFD47DE96FCF81C /* SFProText-Medium.ttf */ = {isa = PBXFileReference; name = "SFProText-Medium.ttf"; path = "../src/assets/fonts/SFProText-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CCB6B7291E1545AFB2E01DB7 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; name = "SFProText-Regular.ttf"; path = "../src/assets/fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0994FBA28D02403B9CD5D197 /* SFProText-SemiBold.ttf */ = {isa = PBXFileReference; name = "SFProText-SemiBold.ttf"; path = "../src/assets/fonts/SFProText-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		065B0184CF02464688603963 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; name = "Urbanist-Bold.ttf"; path = "../src/assets/fonts/Urbanist-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		430901AEDD364920B4421D40 /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Urbanist-ExtraBold.ttf"; path = "../src/assets/fonts/Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		987F6E94D4E24D5BB3BD695C /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; name = "Urbanist-Medium.ttf"; path = "../src/assets/fonts/Urbanist-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D944E25D3C4B4D59A2E9A528 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; name = "Urbanist-Regular.ttf"; path = "../src/assets/fonts/Urbanist-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		546B1463BBC04B228EB9ECFB /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; name = "Urbanist-SemiBold.ttf"; path = "../src/assets/fonts/Urbanist-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +182,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				A527854A7D844D558DBEB6DB /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -153,6 +208,41 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		A527854A7D844D558DBEB6DB /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				867F6C1668EA46259C0500A2 /* CircularStd-Book.otf */,
+				037F305C71E04225AA4255DB /* CircularStd-Medium.otf */,
+				37B1D5E46FB84347A0D0D542 /* CircularStd-Bold.ttf */,
+				615AAF4AA51E4C47AAF89745 /* Eina03-SemiBold.ttf */,
+				79087E1D647C4A5E8823372F /* Futura Hv BT.ttf */,
+				2475B51965844A29A576A2FC /* Futura-Book.ttf */,
+				1E0128A8F0A8473CA4A3329A /* Futura-Medium.ttf */,
+				5689B7A495584F7DAFEEE874 /* Futura-Normal.ttf */,
+				950AAB46314745F79CFB5E29 /* FuturaBT-Heavy.ttf */,
+				5F1E203BAE214F20A5D5EA43 /* Hello.ttf */,
+				E6118C336A00459EB56D1901 /* Poppins-Bold.ttf */,
+				C942B925D860418FB596566A /* Poppins-Medium.ttf */,
+				A97FD4342A9A4BA7B23F90D1 /* Poppins-Regular.ttf */,
+				F1AC54B934904A019108E51B /* Poppins-SemiBold.ttf */,
+				173903D08EC941E38FB8BBDB /* ProximaNova-Bold.ttf */,
+				1C1AB4A25FF64FF9A3F81FF1 /* ProximaNova-Medium.ttf */,
+				D950F46889E44C5789875865 /* ProximaNova-Regular.ttf */,
+				D3716A8D7CF7441B997746C3 /* SFProDisplay-Regular.ttf */,
+				9FA15B136A2A4FB787CB2B6F /* SFProText-Bold.ttf */,
+				D115D268EBFD47DE96FCF81C /* SFProText-Medium.ttf */,
+				CCB6B7291E1545AFB2E01DB7 /* SFProText-Regular.ttf */,
+				0994FBA28D02403B9CD5D197 /* SFProText-SemiBold.ttf */,
+				065B0184CF02464688603963 /* Urbanist-Bold.ttf */,
+				430901AEDD364920B4421D40 /* Urbanist-ExtraBold.ttf */,
+				987F6E94D4E24D5BB3BD695C /* Urbanist-Medium.ttf */,
+				D944E25D3C4B4D59A2E9A528 /* Urbanist-Regular.ttf */,
+				546B1463BBC04B228EB9ECFB /* Urbanist-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -251,6 +341,33 @@
 				EDFE55232CFC50FA00E555AB /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3C116C615734CEA6700B8FA4 /* PrivacyInfo.xcprivacy in Resources */,
+				CBD4CD5718FF430F8F50AD45 /* CircularStd-Book.otf in Resources */,
+				208886B7B90D4F2780735950 /* CircularStd-Medium.otf in Resources */,
+				D1B8B89832F44586AD4AAF25 /* CircularStd-Bold.ttf in Resources */,
+				FAB2BB6F6A834FB4BFCDBD5C /* Eina03-SemiBold.ttf in Resources */,
+				501ADE94449C45BCAFCB79A4 /* Futura Hv BT.ttf in Resources */,
+				1F79B0050683414CBBEE2DA7 /* Futura-Book.ttf in Resources */,
+				1AE62742BF5D4452AC0C4E43 /* Futura-Medium.ttf in Resources */,
+				944F10228FC2484DA3C8E290 /* Futura-Normal.ttf in Resources */,
+				367EB94C97CA4B728961B5ED /* FuturaBT-Heavy.ttf in Resources */,
+				1CAECD21F8E7492FAC7053CB /* Hello.ttf in Resources */,
+				5E94DA4AE79A4C54A3F0F091 /* Poppins-Bold.ttf in Resources */,
+				44B780BDBB2C4933982DCCD3 /* Poppins-Medium.ttf in Resources */,
+				CB1553AB5A33414AAE1747C4 /* Poppins-Regular.ttf in Resources */,
+				971698CA9E2D4DE587245099 /* Poppins-SemiBold.ttf in Resources */,
+				83249B53723B42B391DFAB66 /* ProximaNova-Bold.ttf in Resources */,
+				96EE3E1157FE4C4FAFDE08BD /* ProximaNova-Medium.ttf in Resources */,
+				89B7E346A1AD46E386F1032D /* ProximaNova-Regular.ttf in Resources */,
+				57A3A7E56CB1491E97B0A4A8 /* SFProDisplay-Regular.ttf in Resources */,
+				F3524C2A0D4B4D5586AFDC15 /* SFProText-Bold.ttf in Resources */,
+				311125CC5A9E445CAE50785F /* SFProText-Medium.ttf in Resources */,
+				E668788F660A400A95FAD68B /* SFProText-Regular.ttf in Resources */,
+				E8F0B3A998334843A6E2F0C0 /* SFProText-SemiBold.ttf in Resources */,
+				74318183C36F469DB6C7530C /* Urbanist-Bold.ttf in Resources */,
+				4F14185F38BA4B57AFB9D207 /* Urbanist-ExtraBold.ttf in Resources */,
+				61F423A0891543B292DB11AA /* Urbanist-Medium.ttf in Resources */,
+				0DB3D858FDB54598B6EC21C6 /* Urbanist-Regular.ttf in Resources */,
+				44900AF773EA45D78724F546 /* Urbanist-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

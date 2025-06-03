@@ -2,61 +2,80 @@ import { StyleSheet } from 'react-native';
 import { moderateScale, moderateVerticalScale, scale } from 'react-native-size-matters';
 import colors from '../../styles/colors';
 import fontFamily from '../../styles/fontFamily';
-import { width } from '../../styles/responsiveSize';
+import { height, width } from '../../styles/responsiveSize';
 
 export const styles = StyleSheet.create({
-    cardContainer:{
-        alignItems:'center',
-        borderRadius:moderateScale(8),
-        padding:moderateScale(12),
-        marginBottom:moderateVerticalScale(12),
-        marginHorizontal:moderateScale(6),
-        width:width/2-24
+   homeHappiness: {
+      textAlign: 'center',
+      fontFamily: fontFamily.ProximaNovaMedium,
+      color: colors.blackOpacity70,
+      fontSize: scale(16),
+   },
+   tadayMenu:{
+      textAlign: 'center',
+      fontFamily: fontFamily.ProximaNovaBold,
+      color: colors.white,
+      fontSize: scale(24),
+   },
+   menuTime:{
+      textAlign: 'center',
+      fontFamily: fontFamily.ProximaNovaBold,
+      color: colors.whiteOpacity77,
+      fontSize: scale(14),
+   },
+   profile: {
+      height: moderateVerticalScale(25),
+      width: moderateScale(25),
     },
-    orderTitle:{
-        fontFamily:fontFamily.ProximaNovaMedium,
-        fontSize:scale(16),
-        marginVertical:moderateVerticalScale(4)
+    myProfile:{
+      margin:moderateScale(12),
+      backgroundColor:colors.white,
+      padding:moderateScale(6),
+      borderRadius:moderateScale(18),
+      alignSelf:'flex-end'
     },
-    orderSubTitle:{
-        fontFamily:fontFamily.ProximaNovaRegular,
-        fontSize:scale(12),
-        color:colors.blackLight
+    container: {
+      flex: 1,
+      flexDirection:'row',
+      alignItems:'center',
+      justifyContent:'space-between',
+      marginHorizontal:moderateScale(12),
+      marginTop:moderateVerticalScale(24)
     },
-    iconImg:{
-        width:moderateScale(30),
-        height:moderateVerticalScale(30),
-        resizeMode:'contain',
-        margin:moderateScale(6)
+    headerContainer: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginBottom: moderateVerticalScale(12),
     },
-    chartHeading:{
-        flexDirection:'row',
-        justifyContent:'space-between',
-        alignItems:'center',
-        marginHorizontal:moderateScale(12),
-        marginVertical:moderateVerticalScale(18)
+    headerText: {
+      backgroundColor: colors.yellowB,
+      fontSize: scale(14),
+      fontFamily:fontFamily.ProximaNovaBold,
+      padding:moderateScale(4)
     },
-    titleHeading:{
-        fontFamily:fontFamily.ProximaNovaBold,
-        fontSize:scale(16),
+    menuItem: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      marginBottom: moderateVerticalScale(6),
     },
-    vendorConatiner:{
-        flexDirection:'row',
-        alignItems:'center',
-        padding:moderateScale(8),
-        borderWidth:2,
-        borderRadius:moderateScale(8),
-        marginBottom:moderateVerticalScale(12)
+    itemName: {
+      fontSize: scale(12),
+      color: colors.white,
+      marginRight:moderateScale(6)
     },
-    vendorImg:{
-        height:moderateVerticalScale(45),
-        width:moderateVerticalScale(45),
-        marginRight:moderateScale(12),
-        resizeMode:'contain',
-        borderRadius:moderateScale(30)
+    itemquantity: {
+      fontSize: scale(12),
+      color: colors.white,
     },
-    vendorName:{
-        fontFamily:fontFamily.ProximaNovaBold,
-        fontSize:scale(18)
-    }
+    imageContainer: {
+      alignSelf: 'flex-end',
+      marginTop: 16,
+    },
+    circularImage: {
+      width: width/3.5,
+      height: width/3.5,
+      borderRadius: width/3.5/2, // Makes the image circular
+      borderWidth: 2,
+      borderColor: colors.white,
+    },
 });

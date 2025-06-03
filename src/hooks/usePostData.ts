@@ -21,9 +21,6 @@ axiosInstance.interceptors.request.use(config => {
   const userData = getItem('userData');
   if (!!userData) {
     modifiedConfig.headers.Authorization = `${userData.auth_token}`;
-    modifiedConfig.headers.code = 'a0c80e'
-  }else{
-    modifiedConfig.headers.code = 'a0c80e'
   }
 
   return modifiedConfig;

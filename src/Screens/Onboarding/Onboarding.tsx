@@ -4,7 +4,7 @@ import React from 'react';
 import CustomScrollBannerWithTitle from '../../Components/CustomScrollBannerWithTitle';
 import WrapperContainer from '../../Components/WrapperContainer';
 import navigationsStrings from '../../constants/navigationsStrings';
-import { onBoardData } from '../../extra';
+import { onboardingData } from '../../extra';
 
 
 
@@ -13,7 +13,7 @@ const Onboarding = () => {
   const navigation = useNavigation<StackNavigationProp<any>>();
   return (
     <WrapperContainer>
-      <CustomScrollBannerWithTitle withText={true} data={onBoardData||[]} onPressSkip={()=>navigation.navigate(navigationsStrings.Login)}/>
+      <CustomScrollBannerWithTitle withText={true} data={onboardingData||[]} onPressSkip={()=>navigation.navigate(navigationsStrings.Login)}/>
     </WrapperContainer>
   );
 };

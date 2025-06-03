@@ -71,6 +71,7 @@ export const CustomTextInput: FC<Proptypes> = ({
         {!!isLeft && (
           <TouchableOpacity>
             <Image
+              resizeMode='contain'
               style={{...styles.leftstyle, ...leftImageStyle} as any}
               source={leftImg}
             />
@@ -129,7 +130,10 @@ const styles = StyleSheet.create({
     height:moderateScale(20),
     width:moderateVerticalScale(20)
   },
-  leftstyle: {},
+  leftstyle: {
+    height:moderateScale(15),
+    width:moderateVerticalScale(15)
+  },
   labelStyle: {
     marginVertical: moderateVerticalScale(12),
     fontSize: scale(14),

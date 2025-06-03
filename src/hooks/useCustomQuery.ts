@@ -13,9 +13,6 @@ axiosInstance.interceptors.request.use((config) => {
   const userData = getItem("userData");
   if (!!userData) {
     config.headers.Authorization = `${userData.auth_token}`;
-    config.headers.code = 'a0c80e'
-  }else{
-    config.headers.code = 'a0c80e'
   }
   // Log the headers and data being sent with the request
   console.log("Request Headers:", config.headers);

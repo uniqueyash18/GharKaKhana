@@ -37,9 +37,9 @@ const GradientButton: FC<GradientButtonProps> = ({
   btnText,
   marginBottom = 0,
   textStyle = {
-    color: colors.white,
-    fontSize: scale(14),
-    fontFamily: fontFamily.ProximaNovaMedium,
+    color: colors.black,
+    fontSize: scale(16),
+    fontFamily: fontFamily.ProximaNovaBold,
   },
   indicator = false,
   colorsArray = [colors.themeColor,colors.themeColor],

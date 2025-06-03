@@ -17,6 +17,7 @@ import colors from '../styles/colors';
 import fontFamily from '../styles/fontFamily';
 import { height, width } from '../styles/responsiveSize';
 import TextContainer from './TextContainer';
+import FastImage from 'react-native-fast-image';
 
 interface OnboardingProps {
   data: {
@@ -76,7 +77,7 @@ const CustomScrollBannerWithTitle = ({
           ...conatinerStyle,
         }}
         key={String(item.id)}>
-        <Image
+        <FastImage
           source={item?.image}
           resizeMode="contain"
           style={{
@@ -90,7 +91,7 @@ const CustomScrollBannerWithTitle = ({
             isDynamicText
             text={item?.heading}
             style={{
-              fontSize: scale(24),
+              fontSize: scale(28),
               marginVertical: moderateVerticalScale(6),
               fontFamily:fontFamily.ProximaNovaMedium
             }}
@@ -101,7 +102,7 @@ const CustomScrollBannerWithTitle = ({
             isDynamicText
             text={item?.description}
             style={{
-              fontSize: scale(16),
+              fontSize: scale(18),
               fontFamily: fontFamily.ProximaNovaRegular,
             }}
           />
@@ -150,7 +151,7 @@ const CustomScrollBannerWithTitle = ({
           </View>
           <View>
             <TextContainer
-              style={{color: colors.themeColor}}
+              style={{color: colors.themeColor,fontFamily:fontFamily.ProximaNovaBold,fontSize:scale(16)}}
               text="SKIP"
               onPress={onPressSkip}
             />

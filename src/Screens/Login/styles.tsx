@@ -2,6 +2,7 @@ import {StyleSheet} from 'react-native';
 import fontFamily from '../../styles/fontFamily';
 import {moderateScale, moderateVerticalScale, scale} from 'react-native-size-matters';
 import colors from '../../styles/colors';
+import { height, width } from '../../styles/responsiveSize';
 
 export const styles = StyleSheet.create({
   topview: {
@@ -12,7 +13,7 @@ export const styles = StyleSheet.create({
   logintxt: {
     fontSize: scale(24),
     fontFamily: fontFamily.medium,
-    color:colors.black,
+    color:colors.white,
     textAlign:'center'
   },
   bottomview: {
@@ -25,7 +26,7 @@ export const styles = StyleSheet.create({
   forgot: {
     textAlign: 'right',
     fontSize: scale(14),
-    color: colors.themeColor,
+    color: colors.white,
     marginTop:moderateVerticalScale(12)
   },
   horizontalLine: {
@@ -92,12 +93,17 @@ export const styles = StyleSheet.create({
   },
   enterRegEmail:{
     textAlign:'center',
-    marginTop:moderateVerticalScale(12)
+    marginTop:moderateVerticalScale(12),
+    color:colors.whiteOpacity77
   },
   tabHead:{
     alignItems: 'center',
     flex: 0.5,
     borderRadius:moderateScale(8),
     padding:moderateScale(10),
+    },
+    logo:{
+      height:height/4,
+      width:width
     }
 });

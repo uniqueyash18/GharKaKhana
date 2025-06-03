@@ -2,23 +2,31 @@ import { StyleSheet } from 'react-native';
 import { moderateScale, moderateVerticalScale, scale } from 'react-native-size-matters';
 import colors from '../../styles/colors';
 import fontFamily from '../../styles/fontFamily';
+import { height, width } from '../../styles/responsiveSize';
 
 export const styles = StyleSheet.create({
   topview: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: moderateVerticalScale(30),
+    flex: 0.3
+  },
+  logo:{
+    height:height/5,
+    width:width,
   },
   logintxt: {
-    fontSize: scale(18),
-    fontFamily: fontFamily.ProximaNovaBold,
-    color:colors.black,
-    marginVertical:moderateVerticalScale(12)
-  },
-  bottomview: {
+    fontSize: scale(24),
+    fontFamily: fontFamily.medium,
+    color:colors.white,
+    textAlign:'center'
   },
   inputarea: {
     marginTop: moderateVerticalScale(24),
+  },
+  enterRegEmail:{
+    textAlign:'center',
+    marginTop:moderateVerticalScale(12),
+    color:colors.whiteOpacity77
   },
   forgot: {
     textAlign: 'right',
@@ -51,22 +59,9 @@ export const styles = StyleSheet.create({
     justifyContent:'space-around',
     marginVertical:moderateVerticalScale(12)
   },
-  addressItem:{
-    borderBottomWidth:1,
-    borderBlockColor:colors.borderColor,
-    padding:moderateScale(6)
-  },
-  addressContainer:{
-    borderWidth: 1,
-    borderColor: colors.blackOpacity30,
-    backgroundColor:colors.white,
-    borderRadius: moderateScale(6),
-    marginBottom:moderateVerticalScale(12),
-    padding: moderateScale(12),
-  },
-  addressText:{
-    fontFamily:fontFamily.ProximaNovaRegular,
-    fontSize:scale(12),
-    color:colors.blackOpacity70
+  back:{
+    position:'absolute',
+    marginVertical:moderateScale(24),
+    zIndex:9
   }
 });

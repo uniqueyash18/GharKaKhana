@@ -36,7 +36,7 @@ const HomeHeader: FC<Proptypes> = ({vendorName, onPressLoc,onpressVendorName,ven
           <FastImage
           tintColor={colors.black}
             style={styles.notibell}
-            source={imagePath.downArrow}
+            source={imagePath.ic_account}
             resizeMode="contain"
           />
         </TouchableOpacity>}
@@ -81,8 +81,8 @@ const styles = StyleSheet.create({
     color:colors.black
   },
   notibell: {
-    height: moderateVerticalScale(15),
-    width: moderateScale(15),
+    height: moderateVerticalScale(25),
+    width: moderateScale(25),
   },
 });
 export default HomeHeader;

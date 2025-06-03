@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { FlatList, Image, NativeScrollEvent, NativeSyntheticEvent, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { FlatList, Image, NativeScrollEvent, NativeSyntheticEvent, Pressable, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { moderateScale, moderateVerticalScale } from 'react-native-size-matters';
 import colors from '../styles/colors';
 import { height, width } from '../styles/responsiveSize';
+import FastImage from 'react-native-fast-image';
 
 interface OnboardingProps {
   data: {
@@ -60,9 +61,9 @@ const CustomScrollBanner = ({ data,onpressBanner }: OnboardingProps) => {
 
   const mainView = ({ item }: any) => {
     return (
-      <TouchableOpacity onPress={()=>onpressBanner(item)}>
-      <Image
-        source={{uri:item?.image}}
+      <Pressable onPress={()=>onpressBanner(item)}>
+      <FastImage
+        source={item?.image}
         resizeMode="stretch"
         style={{
           height: height / 5,
@@ -71,7 +72,7 @@ const CustomScrollBanner = ({ data,onpressBanner }: OnboardingProps) => {
           marginHorizontal: moderateScale(2),
         }}
       />
-      </TouchableOpacity>
+      </Pressable>
     );
   };
 

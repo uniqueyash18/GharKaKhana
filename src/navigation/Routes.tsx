@@ -11,6 +11,7 @@ import MapScreen from '../Screens/MapScreen/MapScreen';
 export default function Routes() {
   const Stack = createNativeStackNavigator();
   const userData = useSelector((state: RootState) => state?.auth?.userData);
+  console.log(userData,'userDatauserData')
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>

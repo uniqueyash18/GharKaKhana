@@ -23,9 +23,8 @@ const TabRoutes = () => {
           position: 'absolute',
           borderTopRightRadius: moderateScale(12),
           borderTopLeftRadius: moderateScale(12),
-          backgroundColor: colors.themeColor,
-          paddingBottom: moderateVerticalScale(Platform.OS=='ios'? 18:8),
-          height:Platform.OS=='ios'?moderateVerticalScale(75):moderateVerticalScale(65)
+          backgroundColor: colors.white,
+          height:Platform.OS=='ios'?moderateVerticalScale(75):moderateVerticalScale(55),
         },
       }}>
       <Tab.Screen
@@ -34,7 +33,8 @@ const TabRoutes = () => {
             <Text style={{
               fontFamily: fontFamily.ProximaNovaMedium,
               fontSize: scale(12),
-              color: focused ? colors.white : colors.whiteOpacity50,
+              color: focused ? colors.themeColor : colors.themeBackground,
+              marginTop:moderateVerticalScale(6)
             }}>
               {t("HOME")}
             </Text>
@@ -44,7 +44,7 @@ const TabRoutes = () => {
               <FastImage
                 style={{ width: moderateScale(25), height: moderateVerticalScale(25) }}
                 resizeMode="contain"
-                tintColor={focused ? colors.white : colors.whiteOpacity50}
+                tintColor={focused ? colors.themeColor : colors.themeBackground}
                 source={imagePath.ic_home}
               />
             );
@@ -59,7 +59,8 @@ const TabRoutes = () => {
             <Text style={{
               fontFamily: fontFamily.ProximaNovaMedium,
               fontSize: scale(12),
-              color: focused ? colors.white : colors.whiteOpacity50,
+              color: focused ? colors.themeColor : colors.themeBackground,
+              marginTop:moderateVerticalScale(6)
             }}>
               {t("ACCOUNT")}
             </Text>
@@ -69,7 +70,7 @@ const TabRoutes = () => {
               <FastImage
                 style={{ width: moderateScale(25), height: moderateVerticalScale(25) }}
                 resizeMode="contain"
-                tintColor={focused ? colors.white : colors.whiteOpacity50}
+                tintColor={focused ? colors.themeColor : colors.themeBackground}
                 source={imagePath.ic_account}
               />
             );

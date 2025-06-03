@@ -56,4 +56,6 @@ export default{
     deliveredOrder:require('../assets/images/deliveredOrder.png'),
     transaction:require('../assets/images/transaction.png'),
     privacyPolicy:require('../assets/images/privacyPolicy.png'),
+    lock:require('../assets/images/lock.png'),
+    homeImg:require('../assets/newAssets/homeImg.png'),
 }

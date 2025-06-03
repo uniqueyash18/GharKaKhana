@@ -1,0 +1,113 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/CircularStd-Bold.ttf",
+      "sha1": "879abb2579e83ab43c09aad8fa78f2d614ace077"
+    },
+    {
+      "path": "src/assets/fonts/CircularStd-Book.otf",
+      "sha1": "a67856765459bf64a0a1259b6621613edd717ff9"
+    },
+    {
+      "path": "src/assets/fonts/CircularStd-Medium.otf",
+      "sha1": "29b0a9af2e480ffb9d45de38a44f1c21a002adc9"
+    },
+    {
+      "path": "src/assets/fonts/Eina03-SemiBold.ttf",
+      "sha1": "385fba57c7cbceb4197fa66e8c8f86d2a56af581"
+    },
+    {
+      "path": "src/assets/fonts/Futura Hv BT.ttf",
+      "sha1": "da38536b1dfe9081aaf398e79d259c695a658985"
+    },
+    {
+      "path": "src/assets/fonts/Futura-Book.ttf",
+      "sha1": "2726a924eb0ef6991188be2cb4349da60459c9dd"
+    },
+    {
+      "path": "src/assets/fonts/Futura-Medium.ttf",
+      "sha1": "7c96083368e3fe7ff41134b1fff2013c1802fcbe"
+    },
+    {
+      "path": "src/assets/fonts/Futura-Normal.ttf",
+      "sha1": "d75f65ed359e7d99c26064dacfd578f6911f68b2"
+    },
+    {
+      "path": "src/assets/fonts/FuturaBT-Heavy.ttf",
+      "sha1": "560b71a8c807025e2e68493de93a9f0a7584aab6"
+    },
+    {
+      "path": "src/assets/fonts/Hello.ttf",
+      "sha1": "ef060a5064d571e4ab1f8f54be8562314ce4f6b4"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "src/assets/fonts/ProximaNova-Bold.ttf",
+      "sha1": "6d3ebef8117e71fec041a5658388849d2bdcbbc4"
+    },
+    {
+      "path": "src/assets/fonts/ProximaNova-Medium.ttf",
+      "sha1": "daba71b45bc178a5d241f5f117a8574950f76262"
+    },
+    {
+      "path": "src/assets/fonts/ProximaNova-Regular.ttf",
+      "sha1": "ab94cee02b55f7bd32a9d49d147659326540526f"
+    },
+    {
+      "path": "src/assets/fonts/SFProDisplay-Regular.ttf",
+      "sha1": "00e029c09a98fd014a7a1013e7efe357b40da352"
+    },
+    {
+      "path": "src/assets/fonts/SFProText-Bold.ttf",
+      "sha1": "632e6cea171b276e5dd1f13b152c702fbf562cee"
+    },
+    {
+      "path": "src/assets/fonts/SFProText-Medium.ttf",
+      "sha1": "3b8df618cd23e83843b16a8a32de1ddc9de44df4"
+    },
+    {
+      "path": "src/assets/fonts/SFProText-Regular.ttf",
+      "sha1": "b4893462f2289df6978f9462a63db9e64bcc9342"
+    },
+    {
+      "path": "src/assets/fonts/SFProText-SemiBold.ttf",
+      "sha1": "9560ae412d73c7c9af72333db50464b4e597b0f9"
+    },
+    {
+      "path": "src/assets/fonts/Urbanist-Bold.ttf",
+      "sha1": "0e6f333a377b0952dbe54977d910eb5c814240d9"
+    },
+    {
+      "path": "src/assets/fonts/Urbanist-ExtraBold.ttf",
+      "sha1": "19ddbc79ee3f656c4d3c797bbd7ed919fd7d15f2"
+    },
+    {
+      "path": "src/assets/fonts/Urbanist-Medium.ttf",
+      "sha1": "a3eddd5d61e5b64ffdcbbb27136f6ba78f4f8c33"
+    },
+    {
+      "path": "src/assets/fonts/Urbanist-Regular.ttf",
+      "sha1": "0090bf610de3fe58148c9e3e3f7c4653f5093257"
+    },
+    {
+      "path": "src/assets/fonts/Urbanist-SemiBold.ttf",
+      "sha1": "8ebddc4514ac5b0c4cd8a7d091fea45ad423034d"
+    }
+  ]
+}

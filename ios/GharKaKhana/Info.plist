@@ -66,8 +66,6 @@
 	<string>$(PRODUCT_NAME) would like access to your photo gallery to upload photos and set profile picture</string>
 	<key>NSContactsUsageDescription</key>
 	<string>$(PRODUCT_NAME) requires contacts access to function properly.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like to access your current location for registration</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>$(PRODUCT_NAME) would like to access your current location for registration</string>
 	<key>NSLocationUsageDescription</key>
@@ -75,15 +73,13 @@
 	<key>NSCalendarsUsageDescription</key>
 	<string>$(PRODUCT_NAME) would like to access your calendar to manage your events</string>
 	<key>NSMotionUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like to access your motion data to enhance the app&apos;s functionality and user experience.</string>
+	<string>$(PRODUCT_NAME) would like to access your motion data to enhance the app's functionality and user experience.</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>$(PRODUCT_NAME) would like to access Bluetooth devices to provide seamless connectivity and functionality even when the app is running in the background.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>This app requires Bluetooth access to connect and communicate with nearby peripherals for device pairing and data transfer. Your privacy and security are our top priorities, and Bluetooth data will only be used for the intended purposes within the app.</string>
 	<key>NSSiriUsageDescription</key>
 	<string>We need access to Siri to provide voice command functionality within the app.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like to access your current location to show nearby vendors or products</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>$(PRODUCT_NAME) would like access to your photo gallery to upload photos and set profile picture</string>
 	<key>PROJECT_GOOGLE_PLACE_KEY</key>

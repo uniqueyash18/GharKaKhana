@@ -18,6 +18,7 @@ import { RootState } from '../../redux/store';
 import { setItem } from '../../services/apiService';
 import { showError } from '../../utils/helperFunctions';
 import { styles } from './styles';
+import { onLogOut } from '../../redux/actions/auth';
 interface Proptypes {
   data?: object;
 }
@@ -37,6 +38,7 @@ const Account: FC<Proptypes> = ({ data }: Proptypes) => {
         text: 'Confirm',
         onPress: async () => {
           setIsLoading(false)
+          onLogOut()
         },
       },
     ]);
